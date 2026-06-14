@@ -1,0 +1,219 @@
+*{ /* PARTE Arthur */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+     font-family: "Prata", serif;
+    list-style: none; 
+    
+     
+}
+
+a{
+    color: black;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+a:hover{
+     transform: scale(1.1);
+     color: #8E44AD;
+}
+
+.compras>h2{
+    display: flex;
+    justify-content: center;
+    padding: 88px 0px;
+    font-size: 30px;
+}
+
+h1{
+    padding: 16px 80px;
+    color: #8E44AD;
+    font-family: "Aladin", system-ui;
+}
+
+.images-compras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    margin: 0% 25%;
+    background-color: #F4F4F4;
+}
+
+.compra1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    font-size: 18px;
+}
+
+.compra2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+.compra3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+     font-size: 18px;
+}
+
+.descontos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+     font-size: 18px;
+}
+
+button{
+    width: 479px;
+    height: 56px;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+    padding: 42px;
+}
+
+
+.pagamento{
+    display: flex;
+    margin: 0% 25%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resumo-compra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 18px;
+    
+}
+
+.total-pagar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-pagamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.botao-pagamento a{
+    background-color: #f8f8f8;
+    color: black;
+    width: 162px;
+    height: 60px;
+    display: flex;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.finalizar{
+   
+    background-color: #8E44AD;
+    color: white;
+}
+
+.botao-pagamento>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.resumo-compra{
+    .preco1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .preco2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .preco3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .preco4{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > div{
+    display: flex;
+}
+
+.info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.nav4{
+    padding: 60px;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Aladin", system-ui;
+    font-size: 55px;
+    color: #8E44AD;
+}
+
+footer a{
+    display: flex;
+    flex-direction: column;
+} /* PARTE ARTHUR */
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background: #25D366;
+    color: white;
+
+    padding: 15px 20px;
+    border-radius: 50px;
+}

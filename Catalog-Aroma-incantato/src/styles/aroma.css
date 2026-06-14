@@ -1,0 +1,402 @@
+/* RESET */
+
+*{ /* PARTE FERNANDO LUZIA */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+     font-family: "Prata", serif;
+    list-style: none; 
+     
+}
+
+a{
+    color: black;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+        font-family: "Prata", serif;
+     font-size: 21px;
+}
+a:hover{
+     transform: scale(1.1);
+     color: #8E44AD;
+}
+
+
+button{
+    padding: 15px 55px;
+    background: #8E44AD;
+    color: white;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+ button:hover {
+    transform: scale(1.1);
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 140px;
+    background: white;
+    
+
+}
+
+header h1{
+    color: #8E44AD;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+/* BANNER */
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: #F4F4F4;
+    min-height: 620px;
+}
+
+.img-lateral{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.img-lateral img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+/* IDENTIDADE */
+
+.identidade h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 35px;
+}
+
+/* IDENTIDADE */
+
+
+.identidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.identidade h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.identidade > p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.identidade nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 48px;
+}
+
+.identidade nav img{
+    width: 500px;
+}
+
+.identidade nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 500px;
+    font-size: 19px;
+}
+
+
+
+/* PRODUÇÃO */
+
+.producao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #F4F4F4;
+    padding: 10px;
+    gap: 60px;
+}
+
+.producao h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.producao p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.producao nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.producao img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1160px;
+    height: 645px;
+    padding: 50px;
+}
+
+/* CATÁLOGO */
+
+.catalog{
+    padding: 60px 0;
+}
+
+.catalog h2{
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+    font-size: 30px;
+}
+
+.catalog .produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 31px;
+    padding: 40px 0;
+    flex-wrap: nowrap;
+}
+
+.catalog .produtos section{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    gap: 20px;
+    background: white;
+    padding: 0;
+}
+
+.catalog .produtos img{
+    width: 100%;
+    height: auto;
+}
+
+.catalog .produtos button{
+    padding: 10px 30px;
+      background: #F4F4F4;
+}
+
+/* FIM DA PARTE FERNANDO LUZIA */
+
+
+
+
+/* COMENTÁRIOS */
+
+main > h1{    /* PARTE ARTHUR */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+body > main{
+    padding: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+}
+
+.comentarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box1,
+.box2{
+    width: 499px;
+    min-height: 232px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* FAQ */
+
+body > section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 140px;
+    font-size: 18px;
+    background-color: #f8f8f8;
+}
+
+.part-two{
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.part-two > h1{
+    display: flex;
+    align-items: center;
+}
+
+.tudo{
+
+    display: flex;
+    gap: 130px;
+
+}
+
+.img-ask{
+    display: flex;
+    gap: 130px;
+}
+.ask1,
+.ask2,
+.ask3{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+   
+    
+}
+
+.ask1 > h3{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.ask1 > p{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 130px;
+}
+
+/* DIV DE INFORMAÇÕES */
+
+.div-black{
+    background-color: #f8f8f8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 451px;
+    padding: 100px 100px;
+    margin: 75px 100px;
+    border: 1px solid black;
+}
+
+.div-black > button{
+    background-color: black;
+    color: white;
+    width: 162px;
+    height: 60px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > div{
+    display: flex;
+}
+
+.info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.nav4{
+    padding: 60px;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Aladin", system-ui;
+    font-size: 55px;
+    color: #8E44AD;
+}
+
+footer a{
+    display: flex;
+    flex-direction: column;
+} /* PARTE ARTHUR */
+
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background: #25D366;
+    color: white;
+
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
